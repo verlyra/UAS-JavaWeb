@@ -82,7 +82,7 @@
 </head>
 <body class="flex h-screen overflow-hidden">
 
-    <!-- SIDEBAR (Identik dengan Cashier) -->
+    <!-- SIDEBAR -->
     <aside class="w-64 bg-black text-white flex flex-col justify-between p-6">
         <div>
             <!-- Logo -->
@@ -188,15 +188,15 @@
                     <input type="hidden" name="id" id="formId">
                     
                     <div>
-                        <label class="block text-xs font-black uppercase mb-1 italic">Product Code</label>
+                        <label class="block text-xs font-black uppercase mb-1">Product Code</label>
                         <input type="text" name="kode_barang" id="formKode" required class="w-full neubrutalism-border p-3 font-bold focus:outline-none">
                     </div>
                     <div>
-                        <label class="block text-xs font-black uppercase mb-1 italic">Product Name</label>
+                        <label class="block text-xs font-black uppercase mb-1">Product Name</label>
                         <input type="text" name="nama_barang" id="formNama" required class="w-full neubrutalism-border p-3 font-bold focus:outline-none uppercase">
                     </div>
                     <div>
-                        <label class="block text-xs font-black uppercase mb-1 italic">Category</label>
+                        <label class="block text-xs font-black uppercase mb-1">Category</label>
                         <select name="kategori" id="formKategori" class="w-full neubrutalism-border p-3 font-bold bg-white focus:outline-none">
                             <option value="Food">Food</option>
                             <option value="Drink">Drink</option>
@@ -207,15 +207,15 @@
                         </select>
                     </div>
                     <div>
-                        <label class="block text-xs font-black uppercase mb-1 italic">Unit</label>
+                        <label class="block text-xs font-black uppercase mb-1">Unit</label>
                         <input type="text" name="satuan" id="formSatuan" placeholder="Pcs/Kg/Box" required class="w-full neubrutalism-border p-3 font-bold focus:outline-none">
                     </div>
                     <div>
-                        <label class="block text-xs font-black uppercase mb-1 italic">Selling Price (IDR)</label>
+                        <label class="block text-xs font-black uppercase mb-1">Selling Price (IDR)</label>
                         <input type="number" name="harga_jual" id="formHarga" required class="w-full neubrutalism-border p-3 font-bold focus:outline-none">
                     </div>
                     <div>
-                        <label class="block text-xs font-black uppercase mb-1 italic">Available Stock</label>
+                        <label class="block text-xs font-black uppercase mb-1">Available Stock</label>
                         <input type="number" name="stok_tersedia" id="formStok" required class="w-full neubrutalism-border p-3 font-bold focus:outline-none">
                     </div>
 
