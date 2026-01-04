@@ -24,7 +24,7 @@ public class Koneksi {
             // Pastikan detail koneksi ini sudah 100% benar
             String url = "jdbc:mysql://localhost:3306/uas_jwp";
             String user = "root";
-            String password = "root"; // <-- Apakah password ini sudah benar untuk user 'root' Anda?
+            String password = ""; 
 
             connect = DriverManager.getConnection(url, user, password);
             System.out.println("Koneksi ke database berhasil dibuat!");

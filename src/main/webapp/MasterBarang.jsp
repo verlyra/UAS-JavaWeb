@@ -200,8 +200,10 @@
                         <select name="kategori" id="formKategori" class="w-full neubrutalism-border p-3 font-bold bg-white focus:outline-none">
                             <option value="Food">Food</option>
                             <option value="Drink">Drink</option>
-                            <option value="Snack">Snack</option>
+                            <option value="Household">Household</option>
+                            <option value="Stationery">Stationery</option>
                             <option value="Electronics">Electronics</option>
+                            <option value="Others">Others</option>
                         </select>
                     </div>
                     <div>
