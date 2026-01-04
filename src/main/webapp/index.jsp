@@ -40,7 +40,7 @@
                 session.setAttribute("user_id", rs.getString("id"));
                 session.setAttribute("username", rs.getString("username"));
                 session.setAttribute("nama_lengkap", rs.getString("nama_lengkap"));
-                response.sendRedirect("dashboard.jsp"); 
+                response.sendRedirect("MasterUser.jsp"); 
                 return;
             } else {
                 errorMsg = "Username atau Password salah!";
